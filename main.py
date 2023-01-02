@@ -75,10 +75,6 @@ near_birthdays = {
 get_birthdays_per_week(users, range_of_days=30)
 
 
-# if __name__ == __main__:
-#     get_birthdays_per_week(users)
+if __name__ == '__main__':
+    get_birthdays_per_week(users)
     
-
-
-# реалізувати словник зі списками щоб прінтувати словник а не построчно
-# Посортувати дні тижня по порядку
